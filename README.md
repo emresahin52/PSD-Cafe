@@ -1,2 +1,2 @@
-# PSD-Cafe
+# Psd-Cafe
 Cafe Template
