@@ -1,0 +1,383 @@
+
+*{
+    font-family: 'Ephesis', cursive;
+}
+.one{
+    background: linear-gradient(#8f9da0,#cccccc);
+    color: #fff;
+}
+.cafe-p1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cafe-span{
+    font-weight: bold;
+}
+.nav-menu{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace ;
+}
+.nav-link-a{
+    padding-left: 100%;
+    padding-right: 100%;
+    font-size: 30px;
+}
+.Cakes{
+    font-size: 150px;
+    font-weight: bolder;
+}
+.subCakes{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Cakes-text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.border-1{
+    border: 2px solid #fff;
+    opacity: inherit;
+}
+.text-theme{
+    font-size: 10px;
+}
+.cafe-p2{
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.cafe-theme{
+    margin-top: 0;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.border-2{
+    border: 2px solid gray;
+    opacity: inherit;
+}
+.two-main-p{
+    font-size: 120px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.two-main-span{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.two-main-p2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    color:#c2c2c2;
+}
+.two-main-hr{
+    border: 1px solid #c2c2c2;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+
+}
+.personal-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.personal-title{
+    font-size: 30px;
+    font-family: serif;
+}
+.personal-text{
+    font-size: 15px;
+    font-family: serif;
+}
+.personal-border{
+    border-right: 1px solid #c2c2c2;
+}
+.happy-customers{
+    margin-top: 18%;
+}
+.happy-customers-back{
+    background-color: #c2c2c2;
+}
+.customers-title{
+    font-size: 35px;
+    font-family: serif;
+}
+.customers-text{
+    font-size: 20px;
+    font-family: serif;
+}
+.customers-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.customers-name{
+    color: #fff;
+    font-size: 35px;
+}
+.customers-job{
+    color: #fff;
+    font-size: 24px;
+}
+.threemain{
+    background-color: #c2c2c2;
+}
+.customers-detail{
+    margin-top:20%;
+    margin-bottom:10%;
+}
+.customers-desc{
+    font-family: serif;
+}
+.customers-img-div{
+    margin-top: 5%;
+}
+.day-of-food{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.day-of-food img{
+    width: 100%;
+    height: 100%;
+}
+.day-of-dishes-bg{
+    background-color: #c2c2c2;
+    width: 100%;
+}
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 200px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+.flip-card-back {
+    background-color: #000;
+    color: white;
+    transform: rotateY(180deg);
+}
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+} 
+.our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+} 
+.our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+} 
+.our-team:hover .picture::before {
+    height: 100%;
+} 
+.our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} 
+.our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+} 
+.our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+} 
+.our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+} 
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #c2c2c2;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+} 
+.our-team:hover .social {
+    bottom: 0;
+}
+.our-team .social li {
+  display: inline-block;
+}
+.our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.our-team .social li a:hover {
+    color: #1369ce;
+    background-color: #f7f5ec;
+}
+.news-title{
+    font-family: serif;
+    font-weight: 600;
+}
+.news-text{
+    font-family: serif;
+}
+.text-our-news{
+    font-family: serif;
+    text-align: center;
+    padding: 0 60px;
+}
+.text-our-title{
+    font-family: serif;
+}
+.news-btn{
+    font-family: serif;
+    border: 2px solid;
+    border-radius: 5%;
+    font-weight: 600;
+    color: #00a651;
+}
+.events-img{
+    width: 100%;
+    position: relative;
+}
+.events-img img{
+    width: 100%;
+}
+.date{
+    position: absolute;
+    background-color: #cccccc;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.day-number{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.day{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.title-of-events{
+    font-family: monospace;
+}
+.events-title img{
+    width: 30px;
+    height: 30px;
+}
+.date-event{
+    font-family: monospace;
+}
+.events-text-2{
+    font-family:monospace ;
+}
+.img-deneme{
+    width: 10px;
+    height: 24px;
+    background-color: #ed1c24;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.days-week{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.image-test{
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    display: flex;
+}
+.open-days{
+    color:#7cc576;
+}
+.open-pastdays{
+    color: #603913;
+}
+.open-hours{
+    margin-left: 10px;
+}
+.days-color{
+    color:#7cc576;
+}
+.days{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.days-sunday{
+    color:#ed1c24;
+}
+.days-saturday{
+    color: #603913;
+}
+.open-closed{
+    color:#ed1c24;
+}
